@@ -27,3 +27,4 @@ yarn-error.log*
 publish/
 
 .vs/
+/backend/E-Commerse-Backend/E-Commerse-API/appsettings.json
