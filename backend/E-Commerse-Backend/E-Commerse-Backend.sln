@@ -4,6 +4,10 @@ VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Commerse-API", "E-Commerse-API\E-Commerse-API.csproj", "{F1CE5F4D-22B6-4A00-879A-0182B6F0E49D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Commerse-Data", "E-Commerse-Data\E-Commerse-Data.csproj", "{C232E1D7-63BE-412B-A26D-3C6BA9BBD536}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Commerse-Core", "E-Commerse-Core\E-Commerse-Core.csproj", "{861B2E36-3734-46A0-973B-EEC1F449CC70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,6 +18,14 @@ Global
 		{F1CE5F4D-22B6-4A00-879A-0182B6F0E49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1CE5F4D-22B6-4A00-879A-0182B6F0E49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1CE5F4D-22B6-4A00-879A-0182B6F0E49D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C232E1D7-63BE-412B-A26D-3C6BA9BBD536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C232E1D7-63BE-412B-A26D-3C6BA9BBD536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C232E1D7-63BE-412B-A26D-3C6BA9BBD536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C232E1D7-63BE-412B-A26D-3C6BA9BBD536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{861B2E36-3734-46A0-973B-EEC1F449CC70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{861B2E36-3734-46A0-973B-EEC1F449CC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{861B2E36-3734-46A0-973B-EEC1F449CC70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{861B2E36-3734-46A0-973B-EEC1F449CC70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
