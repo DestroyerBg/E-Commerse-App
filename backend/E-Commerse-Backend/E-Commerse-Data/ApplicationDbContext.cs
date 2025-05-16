@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using System.Reflection;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using E_Commerse_Data.Models;
 namespace E_Commerse_Data
@@ -18,5 +19,7 @@ namespace E_Commerse_Data
         {
             base.OnModelCreating(builder);
         }
+
+        public DbSet<Product> Products { get; set; }
     }
 }
