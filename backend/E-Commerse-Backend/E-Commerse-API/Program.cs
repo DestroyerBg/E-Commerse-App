@@ -1,4 +1,6 @@
 using E_Commerse_API.Extensions;
+using E_Commerse_Core.Interfaces;
+using E_Commerse_Core.Services;
 using E_Commerse_Data;
 using Microsoft.EntityFrameworkCore;
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
@@ -20,6 +22,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(opt =>
     opt.UseSqlServer(connectionString);
 });
 
+builder.Services.AddScoped<IProductService, ProductService>();
 
 WebApplication app = builder.Build();
 
